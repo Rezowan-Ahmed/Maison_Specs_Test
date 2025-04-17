@@ -34,7 +34,7 @@
 </head>
 <body>
 
-<h1>Bartender Spaces Test 12th March</h1>
+<h1>Bartender Specs Test</h1>
 
 <p id="randomWord" class="random-word"></p>
 <button onclick="generateRandomWord()">Classic Cocktails</button>
@@ -48,14 +48,27 @@
 <script>
     // Classic
     const words = [
-        "Bramble","Mimosa","Buck's Fizz","Toreador","Martinez","Kir and Kir Royal",
-        "Hot Toddy","El Diablo","Champagne Cocktail", "Boulevardier", "Americano", 
-        "Mojito", "Dirty Martini", "Dry Martini", "Very Dry Martini", "Medium Martini", "Wet Martini", "Negroni", 
-        "Margarita", "Cosmopolitan", "Old Fashioned", "Manhattan (Sweet)" , "Manhattan (Perfect)",
-        "Moscow Mule", "Daiquiri","Espresso Martini","Apple Martini","Passion Martini", "Sidecar", "Sazerac", 
-        "Paloma", "Bellini","Irish Coffee", "Dark 'n' Stormy", 
-        "Pisco Sour", "Any Sours",   "Vesper", "Aperol Spritz", "Gibson" , "Gimlet", "Caipirinha (Oska)", "Pisco Sour",
-    ];
+  "Adonis", "Airmail", "Americano", "Aperol Spritz", "Army & Navy", "Aviation",
+  "Bamboo", "Bee's Knees", "Bellini", "Bobby Burns", "Boulevardier", "Brandy Alexander",
+  "Brandy Crusta", "Casino", "Champagne Cocktail", "Charlie Chaplin", "Clover Club",
+  "Corpe Reviver N2", "Cosmopolitan", "Daiquiri", "Dark n' Stormy", "El Diablo",
+  "El Presidente", "Fish House Punch", "Floradora", "Godfather", "Grasshopper", "Harvard",
+  "Hanky Panky", "Hemingway Daiquiri", "Hot Toddy", "Hurricane", "Irish Coffee",
+  "Jack Rose", "Jungle Bird", "Kir and Kir Royal", "Mai Tai", "Manhattan Sweet",
+  "Manhattan Perfect", "Margarita", "Martinez", "Martini Dry", "Martini Very Dry",
+  "Martini (Wet)", "Mary Pickford", "Mint Julep", "Morning Glory Fizz", "Negroni",
+  "New York Sour", "Old Fashioned", "Paloma", "Pegu Club", "Pina Colada", "Pisco Sour",
+  "Planter's Punch", "Ramos Gin Fizz", "Rattlesnake", "Rob Roy", "Black and White Russian",
+  "Rusty Nail", "Saratoga", "Sazerac", "Satan's Whiskers", "Sherry Cobbler", "Sidecar",
+  "Singapore Sling", "Stinger", "The Last Word", "Toreador", "Toronoto", "Tuxedo",
+  "Twentieth Century", "Vesper", "Vieux Carre'", "Whisky Mac", "White Lady",
+  "Passion Martini", "Apple Martini", "Espresso Martini", "Capirinha (or oska)",
+  "Buck's Fizz", "Mimosa", "Twinkle", "Moscow Mule", "Sours (any)", "Gimlet", "Gibson",
+  "Dirty Martini", "Mojito", "Gin Rickey", "Milano Torino", "Golden Cadillac",
+  "White Negroni", "French Martini", "Bramble", "Pennicillin", "Coffee Cocktail",
+  "Perfect Lady", "Pink Gin"
+];
+
 
     // Shuffle the array
     const shuffledWords = shuffle(words);
@@ -80,7 +93,7 @@
     // Virgin cocktails
     const words1 = [
         "Bordoni","Harebell Spritz","Virgin Spicy Margarita / The EBP","Rochester","Forest for the Tree","Virgin Penicillin",
-	"Mamba", "Hibiscus Bloom", "Elderflower Press", "Green Apple Ginger","Virgin Mojito", "Virgin Mary"
+	"Mamba","Virgin Mojito", "Virgin Mary"
     ];
 
     const shuffledWords1 = shuffle(words1);
@@ -99,11 +112,17 @@
 
     // Signature cocktails
     const words2 = [
-"Sex On a Plane","Sling Service","Blue Movie","Daisy Duke","Step Father","Wrong Island Ice Tea","Harvey Doorbanger","To-Kill a Sunrise",
-"Endeavour","Carte Blanche","Perstistence","Carthusian","Albariza","La Cura",
-"Belafonte","Viuex Carre","Gaspard","Ravello","Golden Hind","Tuxedo","Bently",
-"Zaza","Marcello","Apertas","Lovely Pear","Alabaster Ale","Teano","French Canadian",
-"Prediction Manhattan","Outsider 44","Paper Plane","Jungle Bird","El Santo","Fuzzy Britches","Pisco Flores","Hammer of God","Salamanca", 
+
+	"Sex On a Plane", "Sling Service", "Blue Movie", "Daisy Duke", "Step Father",
+    "Wrong Island Ice Tea", "Harvey Doorbanger", "To-Kill a Sunrise", "Endeavour",
+    "Carte Blanche", "Perstistence", "Carthusian", "Albariza", "La Cura", "Zaza",
+    "Marcello", "Apertas", "Lovely Pear", "Alabaster Ale", "Teano", "French Canadian",
+
+    "Los Mariachis", "No Pasa Nada", "Omacatl", "Calavera", "Pacto de Sangre",
+    "Old Coahuila", "Cocalita", "無花果 (Ichijiku)", "Umeomaru", "Hishikari", "Hato",
+    "Nisshoki", "Katana 75", "Hokusai Special", "Shibuya", "Chanoyu", "Mortal Leap",
+    "Three Wheels", "Vespa 98", "Friulian Garden", "Scelta Sbagliata", "Marsala",
+    "Mascarponi", "Beretta", "Mezzo & Mezzo", "Al-Madinah", "May Queen"
     ];
 
     const shuffledWords2 = shuffle(words2);
